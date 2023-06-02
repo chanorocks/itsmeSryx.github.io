@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar3.png" alt="Christian Aquino" width="80"/>
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Christian Aquino">Christian Aquino</h1>
+
+          <p class="title">Sofware Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:chano.rocks@icloud.com" class="contact-link">chano.rocks@icloud.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639108670968" class="contact-link">+63 (910) 867-0968</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="12-24">December 24</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Pablo, Philippines</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a software developer based in the Philippines with a passion for web development.
+            I love solving complex problems and turning them into efficient, high-speed, and reliable applications.
+          </p>
+
+          <p>
+            In my previous roles, I have demonstrated my ability to rapidly develop and design web applications and
+            websites that meet the specific needs of businesses.
+            I believe that user-friendly and visually appealing designs are essential for a smooth and seamless user
+            experience.
+            I have had the privilege of working with some of the most reputable brands in the industry, and I have
+            continued to develop my skills in effectively communicating their messages and identities through
+            exceptional web applications.
+          </p>
+
+          <p>
+            I am always looking for new challenges and opportunities to learn and grow.
+            If you are looking for a software developer who is passionate about their work and committed to excellence,
+            I would be honored to discuss how I can help you achieve your goals.
+          </p>
+
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Ap Development</h4>
+
+                <p class="service-item-text">
+                  Create high-quality, robust, user-friendly web apps for businesses.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Backend: PHP (Native/Laravel/FuelPHP)</h5>
+                <data value="9">⭐9</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend: HTML, JavaScript/JQuery, CSS</h5>
+                <data value="8">⭐8</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Backend: GraphQL</h5>
+                <data value="7">7</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database: MySQL, MSSQL, PostgreSQL</h5>
+                <data value="8">⭐8</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Server: Windows / Linux (Ubuntu / Debian / CentOS)</h5>
+                <data value="8">⭐8</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Others: GitHub, BitBucket, Docker</h5>
+                <data value="8">⭐8</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer @ Bizmates Philippines, Inc.</h4>
+
+              <span>07/2022 — Present</span>
+
+              <p class="timeline-text">
+                • Enhance and maintain the Bizmates Portal base on acceptance criteria from Jira posted/created by our
+                mother company Bizmates Japan.
+              </p>
+              <p class="timeline-text">
+                • Review and test Pull Request from GitHub.
+              </p>
+              <p class="timeline-text">
+                • Demonstrate updates made to our Software Delivery Manager and Assigned Product Owner and Production
+                Owner from Japan.
+              </p>
+              <p class="timeline-text">
+                • Develop Sofware from the scratch software using (Laravel, GraphQL, NuxtJS)
+              </p>
+              <p class="timeline-text">
+                • Full stack development (PHP, VueJS, JQuery, HTML, CSS, Twig)
+              </p>
+              <p class="timeline-text">
+                • Assist and teach junior dev.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior Programmer and Analyst @ Uplink Integrated Solutions Inc.</h4>
+
+              <span>03/2016 — 07/2022</span>
+              <p class="timeline-text">
+                • Develop Web Applications for Local Government Units and Private Companies
+              </p>
+              <p class="timeline-text">
+                • Convert existing Visual Basic Application into Web Applications
+              </p>
+              <p class="timeline-text">
+                • Maintain and enhance existing Visual Basic Application and Web Application
+              </p>
+              <p class="timeline-text">
+                • Demonstrate how the system works with the Local
+                Government Unit with the Mayor and department heads
+              </p>
+              <p class="timeline-text">
+                • Gathers and analyze clients' requirement
+              </p>
+              <p class="timeline-text">
+                • Build a mock-up flowchart of the system flow for the client's approval
+              </p>
+              <p class="timeline-text">
+                • Setup LAMP Server
+              </p>
+              <p class="timeline-text">
+                • Database buildup and migrations
+              </p>
+              <p class="timeline-text">
+                • Integrate GIS (Geographic Information System)/Mapping using Leaflet
+              </p>
+              <p class="timeline-text">
+                • Research new tools that can be used in the project and teach them to other developers.
+              </p>
+              <p class="timeline-text">
+                • Train Junior Developers and handles the project’s Git main branch
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Programmer @ Netlink Advance Solutions, Inc</h4>
+
+              <span>03/2016 — 07/2022</span>
+              <p class="timeline-text">
+                • Develop Web Applications for Local Government Units and Private Companies
+              </p>
+              <p class="timeline-text">
+                • Convert existing Visual Basic Application into Web Applications
+              </p>
+              <p class="timeline-text">
+                • Maintain and enhance existing Visual Basic Application and Web Application
+              </p>
+              <p class="timeline-text">
+                • Gathers and analyze clients' requirement
+              </p>
+              <p class="timeline-text">
+                • Build a mock-up flowchart of the system flow for the client's approval
+              </p>
+              <p class="timeline-text">
+                • Setup LAMP Server
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Master of Science in Information Technology
+              </h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Laguna State Polytechnic University
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Science in Information Technology</h4>
+
+              <span>2010 — 2014</span>
+
+              <p class="timeline-text">
+                STI College San Pablo
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123851.72712487084!2d121.25288135936874!3d14.05552389048937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5c96860a894b%3A0xfa9e0f05004f4aca!2sSan%20Pablo%20City%2C%20Laguna!5e0!3m2!1sen!2sph!4v1685698787168!5m2!1sen!2sph"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
